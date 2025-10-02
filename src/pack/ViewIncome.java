@@ -34,7 +34,7 @@ public class ViewIncome extends javax.swing.JFrame {
     {
         try {
             Connection con = DBUtility.getConnection();
-            String sql ="select date_of_income , source,amount from income where user_id =?";
+            String sql ="select date_of_income , source,amount,income_id from income where user_id =?";
             PreparedStatement ps = con.prepareStatement(sql);
             ps.setInt(1,user_id);
             ResultSet rs = ps.executeQuery();
@@ -46,7 +46,8 @@ public class ViewIncome extends javax.swing.JFrame {
                 Object [] rowData ={
                     rs.getString("date_of_income"),
                     rs.getString("source"),
-                    rs.getString("amount")
+                    rs.getString("amount"),
+                    rs.getInt("income_id")
                 };
                 model.addRow(rowData);
                 
@@ -89,14 +90,14 @@ public class ViewIncome extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Date of Income", "Source", "Amount"
+                "Date of Income", "Source", "Amount", "Income ID"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Object.class, java.lang.Object.class
+                java.lang.String.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false
+                false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
