@@ -118,7 +118,7 @@ public class ViewIncome extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(100);
         }
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 120, 665, 590));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, 790, 590));
 
         jButton1.setBackground(new java.awt.Color(2, 37, 98));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -134,7 +134,7 @@ public class ViewIncome extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 1, 60)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("View your income");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, 520, 80));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 520, 80));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/blue.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1650, 931));
