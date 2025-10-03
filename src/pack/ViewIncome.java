@@ -50,6 +50,7 @@ public class ViewIncome extends javax.swing.JFrame {
                     rs.getInt("income_id")
                 };
                 model.addRow(rowData);
+                jTable1.getColumnModel().getColumn(1).setPreferredWidth(200);
                 
             }
             con.close();

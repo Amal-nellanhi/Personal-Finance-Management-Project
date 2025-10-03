@@ -52,6 +52,7 @@ public class UpdateIncome extends javax.swing.JFrame {
                 };
                 model.addRow(rowData);
                 jTable2.setRowHeight(30);
+                jTable2.getColumnModel().getColumn(1).setPreferredWidth(200);
             }
             con.close();
         } catch (SQLException ex) {
@@ -166,7 +167,7 @@ public class UpdateIncome extends javax.swing.JFrame {
         jTable2.setShowGrid(true);
         jScrollPane2.setViewportView(jTable2);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 160, 730, 600));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 850, 600));
 
         jLabel1.setBackground(new java.awt.Color(87, 87, 87));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/blue.png"))); // NOI18N

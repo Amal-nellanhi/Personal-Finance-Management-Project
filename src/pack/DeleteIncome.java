@@ -52,6 +52,7 @@ public class DeleteIncome extends javax.swing.JFrame {
                 };
                 model.addRow(rowData);
                 jTable2.setRowHeight(30);
+                jTable2.getColumnModel().getColumn(1).setPreferredWidth(200);
             }
             con.close();
         } catch (SQLException ex) {
@@ -142,7 +143,7 @@ public class DeleteIncome extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 1, 60)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Delete your income ");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, 790, 80));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 10, 790, 80));
 
         jTable2.setBackground(new java.awt.Color(51, 51, 51));
         jTable2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -159,7 +160,7 @@ public class DeleteIncome extends javax.swing.JFrame {
         jTable2.setShowGrid(true);
         jScrollPane2.setViewportView(jTable2);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 160, 730, 600));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 850, 600));
 
         jLabel1.setBackground(new java.awt.Color(87, 87, 87));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/blue.png"))); // NOI18N
