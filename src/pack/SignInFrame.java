@@ -44,6 +44,19 @@ public class SignInFrame extends javax.swing.JFrame {
     }
         try {
             Connection con = DBUtility.getConnection();
+            String checksql = "select * from users where binary username = ? or  email = ?";
+            PreparedStatement pscheck = con.prepareStatement(checksql);
+            pscheck.setString(1, username);
+            pscheck.setString(2, email);
+            ResultSet rs = pscheck.executeQuery();
+            if(rs.next())
+            {
+                int flag = 0 ;
+                String message = "           Username or Email id already exists!!";
+                new MessageFrame(message , flag);
+            }
+            else{
+            
             String sql = "insert into users (username,password,email)values(?,?,?)";
             PreparedStatement ps = con.prepareStatement(sql);
             ps.setString(1,username);
@@ -51,8 +64,10 @@ public class SignInFrame extends javax.swing.JFrame {
             ps.setString(3,email);
             int rows = ps.executeUpdate();
             return rows>0;
+            }
             
         } catch (SQLException ex) {
+            
             System.getLogger(SignInFrame.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
         }
         return false;

@@ -59,6 +59,7 @@ public class LoginFrame extends javax.swing.JFrame {
             }
                 
         } catch (SQLException ex) {
+            
             System.getLogger(LoginFrame.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
         }
         
