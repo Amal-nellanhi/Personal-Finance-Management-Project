@@ -155,7 +155,15 @@ public class DeleteIncome extends javax.swing.JFrame {
             new String [] {
                 "Date", "Source", "Amount", "Income ID"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
         jTable2.setShowGrid(true);
         jScrollPane2.setViewportView(jTable2);
