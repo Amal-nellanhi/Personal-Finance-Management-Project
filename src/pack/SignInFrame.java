@@ -28,6 +28,15 @@ public class SignInFrame extends javax.swing.JFrame {
         String email = jTextField1.getText().trim();  
         String password = new String(jPasswordField2.getPassword());
         String confirmPassword = new String(jPasswordField1.getPassword());
+        String emailPattern = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+
+    if (!(email.matches(emailPattern))) 
+    {
+        int flag = 0;
+        String message = "             Please enter a valid email address!!";
+        new MessageFrame(message , flag);
+        return false;
+    }
 
     if (username.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
         int flag = 0;
