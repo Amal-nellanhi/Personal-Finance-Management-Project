@@ -60,26 +60,51 @@ public class UpdateIncome extends javax.swing.JFrame {
         }
         
     }
-     void editRows()
+     boolean editRows()
      {
          if(jTable2.isEditing())
          {
              jTable2.getCellEditor().stopCellEditing();
          }
          int selectedRow = jTable2.getSelectedRow();
-           if (selectedRow != -1) {
+          int incomeId = Integer.parseInt(jTable2.getValueAt(selectedRow, 3).toString());
+          String newDate = jTable2.getValueAt(selectedRow, 0).toString();
+          String newSource = jTable2.getValueAt(selectedRow, 1).toString();
+          String amount = jTable2.getValueAt(selectedRow, 2).toString();
+          double d_amount;
+          if(newDate.isEmpty()||amount.isEmpty()||newSource.isEmpty())
+            {
+                int flag = 0 ;
+                String message = "              All fields are required!!";
+                new MessageFrame(message , flag);
+                return false;
+            }
+        java.util.Date today = new  java.util.Date();
+        try{
+            d_amount = Double.parseDouble(amount);}
+            catch (NumberFormatException e){
+                int flag = 0 ;
+                String message = "            Enter a valid number as amount !!";
+                new MessageFrame(message , flag);
+                return false;
+            }
+        if(d_amount <= 0)
+        {
+            int flag = 0 ;
+                String message = "        Amount must be greater than zero !!";
+                new MessageFrame(message , flag);
+                return false; 
+        }
+          
+           if (selectedRow != -1) 
+           {
              try {
                  Connection con = DBUtility.getConnection();
-                 int incomeId = Integer.parseInt(jTable2.getValueAt(selectedRow, 3).toString());
-                 String newDate = jTable2.getValueAt(selectedRow, 0).toString();
-                 String newSource = jTable2.getValueAt(selectedRow, 1).toString();
-                 double newAmount = Double.parseDouble(jTable2.getValueAt(selectedRow, 2).toString());
-                 
                  String sql = "UPDATE income SET date_of_income=?, source=?, amount=? WHERE income_id=?";
                  PreparedStatement pst = con.prepareStatement(sql);
                  pst.setString(1, newDate);
                  pst.setString(2, newSource);
-                 pst.setDouble(3, newAmount);
+                 pst.setDouble(3, d_amount);
                  pst.setInt(4, incomeId);
                  pst.executeUpdate();
                  int flag = 1 ;
@@ -89,14 +114,15 @@ public class UpdateIncome extends javax.swing.JFrame {
                  System.getLogger(UpdateIncome.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
              }
              
-} 
+            } 
         
- else {
-    int flag = 0 ;
-                String message = "             Please select a row !!";
-                new MessageFrame(message , flag);
-                return ;
-}
+             else {
+                    int flag = 0 ;
+                    String message = "             Please select a row !!";
+                    new MessageFrame(message , flag);
+                    return false ;
+                    }
+           return true;
      }
     
     
@@ -162,7 +188,15 @@ public class UpdateIncome extends javax.swing.JFrame {
             new String [] {
                 "Date", "Source", "Amount", "Income ID"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                true, true, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
         jTable2.setShowGrid(true);
         jScrollPane2.setViewportView(jTable2);
