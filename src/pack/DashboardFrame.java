@@ -13,7 +13,6 @@ import javax.swing.SwingConstants;
  */
 public class DashboardFrame extends javax.swing.JFrame {
     private int currentUserId;
-    String username;
     
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(DashboardFrame.class.getName());
@@ -24,7 +23,6 @@ public class DashboardFrame extends javax.swing.JFrame {
     public DashboardFrame(String username , int userID ) {
         initComponents();
         setVisible(true);
-        this.username = username;
         setLocationRelativeTo(null);
         this.currentUserId = userID;
         jLabel2.setText("Welcome Back, "+username+" !");
