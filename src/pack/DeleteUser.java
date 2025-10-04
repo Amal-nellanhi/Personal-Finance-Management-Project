@@ -15,6 +15,7 @@ import javax.swing.ImageIcon;
  */
 public class DeleteUser extends javax.swing.JFrame {
     int userID ;
+    String username;
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(DeleteUser.class.getName());
 
@@ -110,9 +111,9 @@ public class DeleteUser extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        deleteUser();
         dispose();
-        System.exit(0);
+        new LoginFrame();
+        deleteUser();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
