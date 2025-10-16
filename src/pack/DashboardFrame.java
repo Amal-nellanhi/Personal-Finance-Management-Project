@@ -54,13 +54,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
-        jMenuItem10 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
@@ -174,11 +172,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem5);
 
-        jMenuItem6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem6.setText("Search");
-        jMenuItem6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu1.add(jMenuItem6);
-
         jMenuBar1.add(jMenu1);
 
         jMenu2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -205,11 +198,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem9.setText("Delete Expense");
         jMenuItem9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jMenu2.add(jMenuItem9);
-
-        jMenuItem10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem10.setText("Search");
-        jMenuItem10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu2.add(jMenuItem10);
 
         jMenuBar1.add(jMenu2);
 
@@ -421,7 +409,6 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
@@ -446,7 +433,6 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem30;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
