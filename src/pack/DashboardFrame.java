@@ -174,6 +174,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem7.setText("View Expense");
         jMenuItem7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem7);
 
         jMenuItem8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -184,6 +189,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem9.setText("Delete Expense");
         jMenuItem9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem9);
 
         jMenuBar1.add(jMenu2);
@@ -307,6 +317,14 @@ public class DashboardFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         new AddExpense(currentUserId);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
+
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        new DeleteExpense(currentUserId);
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
 
     /**
      * @param args the command line arguments
