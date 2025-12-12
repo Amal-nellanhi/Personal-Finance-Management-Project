@@ -46,7 +46,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -117,13 +116,7 @@ public class DashboardFrame extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 530, 220, 50));
 
-        jLabel3.setBackground(new java.awt.Color(90, 89, 89));
-        jLabel3.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(168, 168, 168));
-        jLabel3.setText(" \" A penny saved is a penny earned \"");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 180, 860, 220));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Black White and Teal Minimal Abstract Patterns Finance Report Finance Presentation (1).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/dash_bg.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1962, 1083));
 
         jMenuBar1.setBackground(new java.awt.Color(204, 204, 255));
@@ -411,7 +404,6 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
