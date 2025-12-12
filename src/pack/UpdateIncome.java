@@ -204,11 +204,11 @@ public class UpdateIncome extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 850, 600));
 
         jLabel1.setBackground(new java.awt.Color(87, 87, 87));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/blue.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setMinimumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setPreferredSize(new java.awt.Dimension(1960, 1080));
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1650, 931));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1760, 1120));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

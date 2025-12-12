@@ -137,8 +137,8 @@ public class ViewIncome extends javax.swing.JFrame {
         jLabel2.setText("View your income");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 520, 80));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/blue.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1650, 931));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1960, 1090));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
