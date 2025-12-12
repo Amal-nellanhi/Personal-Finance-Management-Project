@@ -203,7 +203,7 @@ public class AddExpense extends javax.swing.JFrame {
             jTextField2.setText("");
             dateChooserIncome.setDate(null);
             int flag = 1 ;
-                String message = "         Income added successfully!!";
+                String message = "         Expense added successfully!!";
                 new MessageFrame(message , flag);
                 return;
         }
