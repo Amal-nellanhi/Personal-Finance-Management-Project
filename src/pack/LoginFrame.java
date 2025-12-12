@@ -31,7 +31,7 @@ public class LoginFrame extends javax.swing.JFrame {
             ps.setString(1, jTextField2.getText());
             ps.setString(2, new String(jPasswordField1.getPassword()));
             ResultSet rs = ps.executeQuery();
-            if(rs.next() && jCheckBox1.isSelected())
+            if(rs.next())
             {   
                 int currentUserId = rs.getInt("user_id");
                 String username = jTextField2.getText();
@@ -43,13 +43,6 @@ public class LoginFrame extends javax.swing.JFrame {
               
                 dispose();
             }
-            else if(!(jCheckBox1.isSelected()))
-                    {
-                       int flag = 0 ;
-                        String message = "         Please accept terms and Conditions";
-                        new MessageFrame(message , flag);
-                       
-                    }
             else
             {
                 int flag = 0 ;
@@ -80,7 +73,6 @@ public class LoginFrame extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jCheckBox1 = new javax.swing.JCheckBox();
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -127,16 +119,6 @@ public class LoginFrame extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 620, 180, 50));
 
-        jCheckBox1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
-        jCheckBox1.setText("I accept the terms & Conditions");
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 510, 290, 30));
-
         jPasswordField1.setBackground(new java.awt.Color(204, 204, 255));
         jPasswordField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 410, 360, 50));
@@ -177,10 +159,6 @@ public class LoginFrame extends javax.swing.JFrame {
         jPasswordField1.setText("");
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -210,7 +188,6 @@ public class LoginFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
