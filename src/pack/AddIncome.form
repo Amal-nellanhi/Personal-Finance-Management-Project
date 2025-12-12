@@ -207,7 +207,7 @@
           <Color blue="57" green="57" red="57" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/pack/blue.png"/>
+          <Image iconType="3" name="/pack/Signup_bg.jpg"/>
         </Property>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[1960, 1080]"/>
@@ -221,7 +221,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="-40" width="1650" height="931"/>
+          <AbsoluteConstraints x="0" y="-40" width="1940" height="1130"/>
         </Constraint>
       </Constraints>
     </Component>
