@@ -53,13 +53,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
-        jMenuItem10 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
@@ -69,22 +67,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem15 = new javax.swing.JMenuItem();
         jMenuItem16 = new javax.swing.JMenuItem();
         jMenuItem17 = new javax.swing.JMenuItem();
-        jMenu5 = new javax.swing.JMenu();
-        jMenuItem18 = new javax.swing.JMenuItem();
-        jMenuItem19 = new javax.swing.JMenuItem();
-        jMenuItem20 = new javax.swing.JMenuItem();
-        jMenuItem21 = new javax.swing.JMenuItem();
-        jMenuItem22 = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
         jMenuItem23 = new javax.swing.JMenuItem();
         jMenuItem24 = new javax.swing.JMenuItem();
         jMenuItem25 = new javax.swing.JMenuItem();
-        jMenuItem26 = new javax.swing.JMenuItem();
         jMenuItem27 = new javax.swing.JMenuItem();
-        jMenu7 = new javax.swing.JMenu();
-        jMenuItem28 = new javax.swing.JMenuItem();
-        jMenuItem29 = new javax.swing.JMenuItem();
-        jMenuItem30 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -167,11 +154,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem5);
 
-        jMenuItem6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem6.setText("Search");
-        jMenuItem6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu1.add(jMenuItem6);
-
         jMenuBar1.add(jMenu1);
 
         jMenu2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -198,11 +180,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem9.setText("Delete Expense");
         jMenuItem9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jMenu2.add(jMenuItem9);
-
-        jMenuItem10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem10.setText("Search");
-        jMenuItem10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu2.add(jMenuItem10);
 
         jMenuBar1.add(jMenu2);
 
@@ -253,32 +230,6 @@ public class DashboardFrame extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu4);
 
-        jMenu5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu5.setText(" EMI  ");
-        jMenu5.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
-
-        jMenuItem18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem18.setText("Add Loan Amount");
-        jMenu5.add(jMenuItem18);
-
-        jMenuItem19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem19.setText("Interest Rate");
-        jMenu5.add(jMenuItem19);
-
-        jMenuItem20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem20.setText("Tenture");
-        jMenu5.add(jMenuItem20);
-
-        jMenuItem21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem21.setText("Monthly EMI");
-        jMenu5.add(jMenuItem21);
-
-        jMenuItem22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem22.setText("Check Status");
-        jMenu5.add(jMenuItem22);
-
-        jMenuBar1.add(jMenu5);
-
         jMenu6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jMenu6.setText("Report  ");
         jMenu6.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
@@ -298,38 +249,12 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jMenu6.add(jMenuItem25);
 
-        jMenuItem26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem26.setText("EMI Report");
-        jMenuItem26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu6.add(jMenuItem26);
-
         jMenuItem27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem27.setText("Overall Report");
         jMenuItem27.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jMenu6.add(jMenuItem27);
 
         jMenuBar1.add(jMenu6);
-
-        jMenu7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu7.setText("Graph  ");
-        jMenu7.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
-
-        jMenuItem28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem28.setText("Pie Chart");
-        jMenuItem28.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu7.add(jMenuItem28);
-
-        jMenuItem29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem29.setText("Bar Chart");
-        jMenuItem29.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu7.add(jMenuItem29);
-
-        jMenuItem30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem30.setText("Line Chart");
-        jMenuItem30.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu7.add(jMenuItem30);
-
-        jMenuBar1.add(jMenu7);
 
         setJMenuBar(jMenuBar1);
 
@@ -408,12 +333,9 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
-    private javax.swing.JMenu jMenu7;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
@@ -421,24 +343,14 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem16;
     private javax.swing.JMenuItem jMenuItem17;
-    private javax.swing.JMenuItem jMenuItem18;
-    private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem20;
-    private javax.swing.JMenuItem jMenuItem21;
-    private javax.swing.JMenuItem jMenuItem22;
     private javax.swing.JMenuItem jMenuItem23;
     private javax.swing.JMenuItem jMenuItem24;
     private javax.swing.JMenuItem jMenuItem25;
-    private javax.swing.JMenuItem jMenuItem26;
     private javax.swing.JMenuItem jMenuItem27;
-    private javax.swing.JMenuItem jMenuItem28;
-    private javax.swing.JMenuItem jMenuItem29;
     private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem30;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
