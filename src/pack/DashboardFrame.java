@@ -214,12 +214,17 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuBar1.add(jMenu4);
 
         jMenu6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu6.setText("Report  ");
+        jMenu6.setText("Report & Graphs  ");
         jMenu6.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
 
         jMenuItem23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem23.setText("Income Report");
         jMenuItem23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem23ActionPerformed(evt);
+            }
+        });
         jMenu6.add(jMenuItem23);
 
         jMenuItem24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -297,6 +302,10 @@ public class DashboardFrame extends javax.swing.JFrame {
     private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
         new UpdateExpense(currentUserId);
     }//GEN-LAST:event_jMenuItem8ActionPerformed
+
+    private void jMenuItem23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem23ActionPerformed
+        new IncomeChartFrame(currentUserId);
+    }//GEN-LAST:event_jMenuItem23ActionPerformed
 
     /**
      * @param args the command line arguments
