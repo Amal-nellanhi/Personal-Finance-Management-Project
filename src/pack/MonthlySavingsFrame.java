@@ -134,7 +134,7 @@ public class MonthlySavingsFrame extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-830, 0, 1980, 1220));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-830, 0, 2020, 1220));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
