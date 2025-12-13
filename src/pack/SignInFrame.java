@@ -167,6 +167,11 @@ public class SignInFrame extends javax.swing.JFrame {
 
         jCheckBox1.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jCheckBox1.setText("I accept the Terms & Conditions");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -279,6 +284,11 @@ public class SignInFrame extends javax.swing.JFrame {
         new LoginFrame();
         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        if((jCheckBox1.isSelected())){
+        new TermsandConditions();}
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
