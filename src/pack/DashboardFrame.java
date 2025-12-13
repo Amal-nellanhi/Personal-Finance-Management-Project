@@ -204,6 +204,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem16.setText("Monthly Savings");
         jMenuItem16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem16ActionPerformed(evt);
+            }
+        });
         jMenu4.add(jMenuItem16);
 
         jMenuItem17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -315,6 +320,10 @@ public class DashboardFrame extends javax.swing.JFrame {
     private void jMenuItem24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem24ActionPerformed
         new ExpenseChartFrame(currentUserId);
     }//GEN-LAST:event_jMenuItem24ActionPerformed
+
+    private void jMenuItem16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem16ActionPerformed
+        new MonthlySavingsFrame(currentUserId);
+    }//GEN-LAST:event_jMenuItem16ActionPerformed
 
     /**
      * @param args the command line arguments
