@@ -72,7 +72,7 @@ public class DashboardFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 1, 70)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 1130, 150));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 1130, 150));
 
         jButton1.setBackground(new java.awt.Color(33, 32, 32));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -96,8 +96,8 @@ public class DashboardFrame extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 530, 220, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/dash_bg.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1962, 1083));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/dashboard-bg.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-150, 0, 1962, 1083));
 
         jMenuBar1.setBackground(new java.awt.Color(204, 204, 255));
 

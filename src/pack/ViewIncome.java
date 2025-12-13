@@ -121,7 +121,7 @@ public class ViewIncome extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, 790, 590));
 
-        jButton1.setBackground(new java.awt.Color(2, 37, 98));
+        jButton1.setBackground(new java.awt.Color(102, 0, 102));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Dashboard");
@@ -137,8 +137,8 @@ public class ViewIncome extends javax.swing.JFrame {
         jLabel2.setText("View your income");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 520, 80));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1960, 1090));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-760, -10, 2520, 1090));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

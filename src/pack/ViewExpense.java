@@ -121,7 +121,7 @@ public class ViewExpense extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, 790, 590));
 
-        jButton1.setBackground(new java.awt.Color(2, 37, 98));
+        jButton1.setBackground(new java.awt.Color(102, 0, 102));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Dashboard");
@@ -134,11 +134,11 @@ public class ViewExpense extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 60)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("View your income");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 520, 80));
+        jLabel2.setText("View your expense");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, 550, 80));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1960, 1090));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-860, -50, 2840, 1090));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

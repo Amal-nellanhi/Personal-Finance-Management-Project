@@ -151,7 +151,7 @@ public class UpdateIncome extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setBackground(new java.awt.Color(2, 37, 98));
+        jButton2.setBackground(new java.awt.Color(102, 0, 102));
         jButton2.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Dashboard");
@@ -162,7 +162,7 @@ public class UpdateIncome extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 180, 50));
 
-        jButton3.setBackground(new java.awt.Color(2, 37, 98));
+        jButton3.setBackground(new java.awt.Color(102, 0, 102));
         jButton3.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Update");
@@ -204,11 +204,11 @@ public class UpdateIncome extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 850, 600));
 
         jLabel1.setBackground(new java.awt.Color(87, 87, 87));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setMinimumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setPreferredSize(new java.awt.Dimension(1960, 1080));
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1760, 1120));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-800, 0, 2810, 1120));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

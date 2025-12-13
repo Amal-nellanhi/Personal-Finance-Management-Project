@@ -144,7 +144,7 @@ public class AddIncome extends javax.swing.JFrame {
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 210, -1, 40));
         getContentPane().add(dateChooserIncome, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 330, 370, 30));
 
-        jButton1.setBackground(new java.awt.Color(1, 1, 90));
+        jButton1.setBackground(new java.awt.Color(102, 0, 102));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Dashboard");
@@ -155,7 +155,7 @@ public class AddIncome extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 480, 170, 40));
 
-        jButton2.setBackground(new java.awt.Color(1, 1, 90));
+        jButton2.setBackground(new java.awt.Color(102, 0, 102));
         jButton2.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Save");
@@ -169,7 +169,7 @@ public class AddIncome extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 480, 180, 40));
 
-        jButton3.setBackground(new java.awt.Color(1, 1, 90));
+        jButton3.setBackground(new java.awt.Color(102, 0, 102));
         jButton3.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Clear");
@@ -181,12 +181,12 @@ public class AddIncome extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 480, 180, 40));
 
-        jLabel1.setBackground(new java.awt.Color(87, 87, 87));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(102, 0, 102));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setMinimumSize(new java.awt.Dimension(1960, 1080));
         jLabel1.setPreferredSize(new java.awt.Dimension(1960, 1080));
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1940, 1130));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-780, -70, 2590, 1200));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

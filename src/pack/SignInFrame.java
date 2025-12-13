@@ -142,7 +142,7 @@ public class SignInFrame extends javax.swing.JFrame {
 
         jTextField3.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
 
-        jButton1.setBackground(new java.awt.Color(0, 123, 255));
+        jButton1.setBackground(new java.awt.Color(51, 102, 255));
         jButton1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("SIGN UP");
@@ -155,7 +155,7 @@ public class SignInFrame extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel9.setText("Already a User ?");
 
-        jButton3.setBackground(new java.awt.Color(138, 43, 255));
+        jButton3.setBackground(new java.awt.Color(102, 0, 102));
         jButton3.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("LOGIN");
@@ -253,9 +253,9 @@ public class SignInFrame extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 70, 630, 660));
 
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/Signup_bg.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pack/general_bg.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-520, -50, 2440, 1160));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
