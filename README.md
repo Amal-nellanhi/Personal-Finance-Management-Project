@@ -41,26 +41,41 @@ This application helps users manage their personal finances by tracking income, 
 
 -  MySQL-backed persistent storage
 
-## Screenshots
+## 📸Screenshots
 
 <div align = "center">
-<img src ="screenshots/Signin.png" alt ="Sign up" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Login.png" alt ="Login page" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Login.png" alt ="Dashboard" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Success.png" alt ="Success message" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Terms.png" alt ="Terms" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Chart.png" alt ="Chart" width = "80%">
-
-<div align = "center">
-<img src ="screenshots/Login.png" alt ="Expense plot" width = "80%">
+  
+<img src ="screenshots/Signup.png" alt ="Sign up" width = "70%">
+<img src ="screenshots/Login.png" alt ="Login page" width = "70%">
+<img src ="screenshots/Dashboard.png" alt ="Dashboard" width = "70%">
+<img src ="screenshots/Success_msg.png" alt ="Success message" width = "70%">
+<img src ="screenshots/Terms.png" alt ="Terms" width = "70%">
+<img src ="screenshots/chart.png" alt ="Chart" width = "70%">
+<img src ="screenshots/plot_expense.png" alt ="Expense plot" width = "70%">
+  
 </div>
+
+## ⚙️Setup & Installation
+
+#### 1. Clone the repository:
+```bash
+git clone https://github.com/Amal-nellanhi/Personal-Finance-Management-Project.git
+```
+
+#### 2. Open the project in NetBeans IDE
+
+
+#### 3. Configure MySQL database:
+
+  -  Create a new database
+  -  Import the provided SQL file (if available)
+  -  Update database credentials in the Java source code
+
+#### 4. Add MySQL JDBC Driver to the project libraries
+
+
+#### 5. Run the project from NetBeans
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
