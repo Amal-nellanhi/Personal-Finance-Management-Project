@@ -65,7 +65,6 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem23 = new javax.swing.JMenuItem();
         jMenuItem24 = new javax.swing.JMenuItem();
         jMenuItem25 = new javax.swing.JMenuItem();
-        jMenuItem27 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -73,7 +72,7 @@ public class DashboardFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 1, 70)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, 1130, 150));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 1130, 150));
 
         jButton1.setBackground(new java.awt.Color(33, 32, 32));
         jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -250,12 +249,12 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem25.setText("Savings Report");
         jMenuItem25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem25ActionPerformed(evt);
+            }
+        });
         jMenu6.add(jMenuItem25);
-
-        jMenuItem27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuItem27.setText("Overall Report");
-        jMenuItem27.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jMenu6.add(jMenuItem27);
 
         jMenuBar1.add(jMenu6);
 
@@ -334,6 +333,10 @@ public class DashboardFrame extends javax.swing.JFrame {
         new YearlySavingsFrame(currentUserId);
     }//GEN-LAST:event_jMenuItem17ActionPerformed
 
+    private void jMenuItem25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem25ActionPerformed
+        new SavingsChartFrame(currentUserId);
+    }//GEN-LAST:event_jMenuItem25ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -377,7 +380,6 @@ public class DashboardFrame extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem23;
     private javax.swing.JMenuItem jMenuItem24;
     private javax.swing.JMenuItem jMenuItem25;
-    private javax.swing.JMenuItem jMenuItem27;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
