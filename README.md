@@ -71,7 +71,7 @@ git clone https://github.com/Amal-nellanhi/Personal-Finance-Management-Project.g
   -  Import the provided SQL file (if available)
   -  Update database credentials in the Java source code
 
-#### 4. Add MySQL JDBC Driver to the project libraries
+#### 4. Add MySQL JDBC Driver and related JAR files to the project libraries
 
 
 #### 5. Run the project from NetBeans
@@ -97,6 +97,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Scalable foundation for growth**  
   With a layered architecture (models, repositories, services, views, controllers), the system is designed to evolve. Features like budgeting, recurring transactions, or exportable reports can be added seamlessly.
 
-> Developed solely for academic learning and demonstration purposes.
+<br></br>
+<div align="center">
+  
+### <i>✨✨Developed solely for academic learning and demonstration purposes.✨✨</i>
 
+</div>
 
