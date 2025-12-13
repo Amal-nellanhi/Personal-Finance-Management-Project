@@ -230,6 +230,11 @@ public class DashboardFrame extends javax.swing.JFrame {
         jMenuItem24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuItem24.setText("Expense Report");
         jMenuItem24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem24ActionPerformed(evt);
+            }
+        });
         jMenu6.add(jMenuItem24);
 
         jMenuItem25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -306,6 +311,10 @@ public class DashboardFrame extends javax.swing.JFrame {
     private void jMenuItem23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem23ActionPerformed
         new IncomeChartFrame(currentUserId);
     }//GEN-LAST:event_jMenuItem23ActionPerformed
+
+    private void jMenuItem24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem24ActionPerformed
+        new ExpenseChartFrame(currentUserId);
+    }//GEN-LAST:event_jMenuItem24ActionPerformed
 
     /**
      * @param args the command line arguments
